@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Presto</title>
+    <title>Catalogo | Presto</title>
     <link rel="stylesheet" href="presto.css">
 </head>
 
@@ -34,17 +34,10 @@
     </nav>
 
 
-    <div style="width: 100%; height: 90vh;">
-        <img src="img sfondo.webp" alt="imgsfonso" class="imgsfondo" style="height: 90vh;width: 100%;">
-    </div>
-
-
-
-
     <div style="background-color: white;display: flex;align-items: center;justify-content: center;height: 40vh;">
 
         <div style="width: 100%;">
-            <h1 style="color: black;text-align: center;font-size: 50px;">Cerca i tuoi prodotti preferiti</h1>
+            <h1 style="color: black;text-align: center;font-size: 50px;">Ecco la tua ricerca filtrata...</h1>
 
             <div style="display: flex;align-items: center;justify-content: center;margin-top: 15px;">
 
@@ -60,7 +53,8 @@
                             <option value="electronics">Elettronica</option>
                             <option value="jewelery">Gioielli</option>
                             <option value="women's clothing">Abbigliamento donna</option>
-                            <option value="man's clothing">Abbigliamento uomo</option>
+                            <option value="men's clothing">Abbigliamento uomo</option>
+                            
                         </select>
 
                     </div>
@@ -109,65 +103,12 @@
 
     </div>
 
-    <div style="display: flex;align-items: center;justify-content: center;">
-        <div class="container-cardshop" id="container-cardshop">
-
-            <div class="cards-shop" onclick="vaiAlCatalogoCategoria('jewelery')"
-                style="border-bottom: 0.5px solid black;">
-
-                <div>
-                    <img src="./imggioielli.jpg" alt="" style="width: 350px;margin-left: 20px;">
-                </div>
-
-                <div style="padding: 10px;">
-                    <div>
-                        <h3 style="color: black;">Gioielli</h3>
-                    </div>
-                    <div>
-                        <p style="color: black;">I migliori gioielli dell'ultima collezione</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="cards-shop" onclick="vaiAlCatalogoCategoria(`women's clothing`)"
-                style="border-bottom: none;border-top: none;">
-
-                <div style="padding: 10px;margin-left: 710px;">
-                    <div>
-                        <h3 style="color: black;">Abbigliamento</h3>
-                    </div>
-                    <div>
-                        <p style="color: black;">I capi più ricercati del momento</p>
-                    </div>
-                </div>
-
-                <div>
-                    <img src="./imgabbigliamento.jpg" alt="" style="width: 350px;">
-                </div>
 
 
-            </div>
+    <div class="container-catalogo" id="container-cards">
 
-            <div class="cards-shop" onclick="vaiAlCatalogoCategoria('electronics')">
+        
 
-                <div>
-                    <img src="./imgelettronica.jpg" alt="" style="width: 350px;margin-left: 20px;">
-                </div>
-
-                <div style="padding: 10px;">
-                    <div>
-                        <h3 style="color: black;">Elettronica</h3>
-                    </div>
-                    <div>
-                        <p style="color: black;">L'Elettronica che ti serve </p>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
     </div>
 
 

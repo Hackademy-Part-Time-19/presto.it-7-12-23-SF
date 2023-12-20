@@ -10,27 +10,29 @@
 
 <body>
 
-    <nav id="navbar" class="navbar">
+    <header>
+        <nav id="navbar" class="navbar">
 
-        <div class="logo">
-            <h2>Presto</h2>
+            <div class="logo">
+                <h2>Presto</h2>
 
-        </div>
+            </div>
 
-        <div class="nav-links">
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="Shop.html">Shop</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li style="cursor: pointer;" onclick="vaiAlCatalogo()">Catalogo</li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
 
-        <div class="button" onclick="vaiARegistrazione()">
-            <button
-                style="border-radius: 20px;width: 100px;height: 30px;background-color: #FF8C00;color: white;">Registrati</button>
-        </div>
+            <div class="button" onclick="vaiARegistrazione()">
+                <button
+                    style="border-radius: 20px;width: 100px;height: 30px;background-color: #FF8C00;color: white;">Registrati</button>
+            </div>
 
-    </nav>
+        </nav>
+    </header>
 
 
     <div style="display: flex;align-items: center;">
@@ -78,7 +80,7 @@
 
 
     <footer class="footer">
-        <div>
+        <div class="footer-text">
             <p>Copyright - P.va 123 456 789 - N.Tel 1234569985 - servizioclienti@presto.com</p>
         </div>
 

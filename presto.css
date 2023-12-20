@@ -12,6 +12,7 @@
     background-color: beige;
     display: flex;
     justify-content: space-between;
+    z-index: 20;
 }
 
 .logo {
@@ -23,55 +24,118 @@
     font-size: 20px;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.nav-links li{
+.nav-links li {
     display: inline;
     padding: 10px;
 
 }
 
-.nav-links a{
+.nav-links a {
     color: #333;
     text-decoration: none;
 }
 
-.button{
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
 }
 
-.container-richieste{
+.container-richieste {
     display: flex;
     margin-top: 30px;
-    
+
 }
 
-.items{
+.items {
     border: 1px solid black;
     padding: 20px;
     margin: 30px;
 }
 
+.container-catalogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+
+}
+
+.cards-catalogo {
+    width: 250px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color:#333;
+    border-radius: 5px;
+
+}
+
+.div-h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+}
+
+.div-p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
 
 
+.container-cardshop {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-direction: column;
+}
 
 
+.cards-shop {
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cards-shop:hover {
+    transition: 0.3s;
+    background-color: #FF8C00;
+    height:300px ;
+    
+}
 
 
-
-
-
-.footer{
+.footer {
     width: 100%;
     height: 8vh;
     background-color: #333;
-    text-align: center;   
+    border-bottom: 0px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 20px;
+    padding: 20px
 }
